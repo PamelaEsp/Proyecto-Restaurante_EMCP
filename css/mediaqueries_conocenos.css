@@ -1,0 +1,98 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) {
+	.imgprincipal>img{
+		width: 550px;
+	}
+	.promesa{
+		margin-top: 10vh;
+	}
+	.ParedCielito{
+		height: 355px;
+	}
+	.LemaCielito{
+		width: 550px;
+	}
+	.lema{
+		margin-top: 6.5vh;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	.ParedCielito{
+		width:370px;
+	}
+	.LemaCielito{
+		width: 650px;
+	}
+}
+/*PARA EL HEADER*/
+@media (min-width: 980px) {
+	.logo_Cielito{
+		margin-left: 5vw;
+	}
+	#contenedor-a{
+		display: flex;
+		align-content: center;
+		position: absolute;
+		right: 0;
+	}
+	.FB,.TW,.IG{
+		margin: 0.5vh 1vw 0 1vw; 
+	}
+	#contenedor-a>span{
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.promesa1{
+		font-size: 3rem;
+		margin-right: 1.5vw;
+	}
+	.promesa2{
+		color: #0071B9;
+		font-size: 3rem;
+	}
+	.VasoCielito{
+		display: inline-block;
+		width: 230px;
+		height: 230px;
+	}
+	.PocilloCielito{
+		display: inline-block;
+		width: 490px;
+		height: 230px;
+	}
+	.ParedCielito{
+		width: 230px;
+		height: 230px;
+	}
+}
+@media (min-width: 1260px){
+	.imgprincipal{
+		margin-bottom: 20vh;
+	}
+	.contenedor-banner{
+		margin-top: 13vh;
+	}
+	.VasoCielito{
+		width: 300px;
+		height: 300px;
+	}
+	.PocilloCielito{
+		width: 630px;
+		height: 300px;
+	}
+	.ParedCielito{
+		width: 300px;
+		height: 300px;
+	}
+	.LemaCielito{
+		width: 850px;
+	}
+	.lema{
+		margin-top: 10vh;
+	}	
+}

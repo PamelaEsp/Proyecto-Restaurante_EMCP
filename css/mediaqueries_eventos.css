@@ -1,0 +1,178 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) {
+	#pan>img,#cata>img,#catering>img,#especialidad>img{
+		width: 362px;
+	}
+	#taza>img,#mostrador>img{
+		width: 505px;
+	}
+	form{
+		padding:0 16vw 0 16vw;
+		margin-bottom: 15vh;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+	main>div{
+			display: flex;
+			justify-content: center;
+			margin-bottom: 15.5vh;
+			width: 100%;
+	}
+	/*IMAGENES*/
+	.contenedor-img{
+		display: grid;
+		grid-template-areas: 
+		"pan cata taza taza"
+		"catering mostrador mostrador especialidad";
+		width: 728px;
+		background-color: violet;
+	}
+	#pan{
+		grid-area: pan;
+	}
+	#pan>img{
+		width: 179px;
+	}
+	#cata{
+		grid-area: cata;
+	}
+	#cata>img{
+		width: 179px;
+	}
+	#catering{
+		grid-area: catering;
+	}
+	#catering>img{
+		width: 179px;
+	}
+	#especialidad{
+		grid-area: especialidad;
+	}
+	#especialidad>img{
+		width: 179px;
+	}
+	#taza{
+		grid-area: taza;
+	}
+	#taza>img{
+		width: 370px;
+	}
+	#mostrador{
+		grid-area: mostrador;
+	}
+	#mostrador>img{
+		width: 370px;
+	}
+	/*FORMULARIO*/
+		form{
+			padding:0 18.1vw 0 18.1vw;
+			margin-bottom: 15vh;
+		}
+}
+/*Intermedio*/
+@media (min-width: 840px) {
+	/*IMAGENES*/
+	.contenedor-img{
+		display: grid;
+		grid-template-areas: 
+		"pan cata taza taza"
+		"catering mostrador mostrador especialidad";
+		width: 955px;
+		background-color: violet;
+	}
+	#pan>img{
+		width: 242.5px;
+	}
+	#cata>img{
+		width: 242.5px;
+	}
+	#catering>img{
+		width: 242.5px;
+	}
+	#especialidad>img{
+		width: 242.5px;
+	}
+	#taza>img{
+		width: 470px;
+	}
+	#mostrador>img{
+		width: 470px;
+	}
+	/*FORMULARIO*/
+		form{
+			padding:0 17.5vw 0 17.5vw;
+			margin-bottom: 15vh;
+		}
+}
+/*PARA EL HEADER*/
+@media (min-width: 980px){
+	.logo_Cielito{
+		margin-left: 5vw;
+	}
+	#contenedor-a{
+		display: flex;
+		align-content: center;
+		position: absolute;
+		right: 0;
+	}
+	.FB,.TW,.IG{
+		margin: 0.5vh 1vw 0 1vw; 
+	}
+	#contenedor-a>span{
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+	.contenedor-frase{
+		margin: 2vh 0 15vh 0;
+	}
+	.frase1{
+		font-size: 3.2rem;
+		margin-right: 1.4vw;
+	}
+	.frase2{
+		font-size: 3.2rem;
+	}
+}
+@media (min-width: 1260px){
+	.contenedor-frase{
+		margin: 1vh 0 17vh 0;
+	}
+	/*IMAGENES*/
+	.contenedor-img{
+		width: 1230px;
+		background-color: violet;
+	}
+	#pan>img{
+		width: 310px;
+	}
+	#cata>img{
+		width: 310px;
+	}
+	#catering>img{
+		width: 310px;
+	}
+	#especialidad>img{
+		width: 310px;
+	}
+	#taza>img{
+		width: 610px;
+	}
+	#mostrador>img{
+		width: 610px;
+	}	
+	form{
+		padding:0 19.5vw 0 19.5vw;
+		margin-bottom: 15vh;
+	}
+	form input{
+		padding: 0 0 0 1.3vw;
+	}
+	form textarea{
+		padding: 2vh 0 0 1.3vw;
+	}		
+}

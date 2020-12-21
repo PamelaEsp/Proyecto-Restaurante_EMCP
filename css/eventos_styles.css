@@ -1,0 +1,190 @@
+/*GENERALES*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html{
+		font-size: 100%;
+		zoom:100%;
+	}
+/*HEADER*/
+	.logo_Cielito{
+		height: 70px;
+	}	
+	.FB>img,.TW>img,.IG>img{
+		width: 30px;
+		height: 30px;
+	}
+	.FB>img:hover,.TW>img:hover,.IG>img:hover{
+		cursor: pointer;
+	}
+	#contenedor-a>a{
+		font-weight: bold;
+		color: #0095EB;
+		margin: 0 2vw 0 2vw;
+	}
+	#contenedor-a>a:hover{
+		color: #57B9F2;
+	}
+	.navheader{
+		position: relative;
+		right: 0;
+	}
+	#contenedor-a>span{
+		margin-left: 2.5vw;
+		margin-bottom: 1.5vh;
+	}
+/*ORACIÓN PRINCIPAL*/
+	.contenedor-frase{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 1vh 0 7vh 0;
+	}
+	.frase1{
+		font-size: 2rem;
+		color: #67CFE3;
+		font-family: 'Fjalla One', sans-serif;
+		font-weight: lighter;
+		margin-right: 1.4vw;
+	}
+	.frase2{
+		font-size: 2rem;
+		color: #0071B9;
+		font-family: 'Anton', sans-serif;
+		font-weight: lighter;
+	}
+/*GRID*/
+	.contenedor-img>div{
+		display: flex;
+		justify-content: center;
+	}
+	#taza>img{
+		width: 440px;
+	}
+	#mostrador>img{
+		width: 440px;
+	}
+/*FORMULARIO*/
+	form{
+		padding:0 4vw 0 4vw;
+		margin-bottom: 15vh;
+	}
+	form input{
+		height: 55.6px;
+		width: 100%;
+		padding: 0 0 0 3vw;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		background-color: #F5F5F5;
+		border: 0;
+		outline: 0;
+		border-bottom: 0.01rem solid gray;
+	}
+	#date{
+		font-weight: lighter;
+		padding-right: 3.5vw;
+	}
+	form textarea{
+		width: 100%;
+		height: 82px;
+		padding: 2.2vh 0 0 3vw;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		outline: 0;
+	}
+	form select{
+		width: 100%;
+		height: 56px;
+		padding: 0.5vh 0 0 3vw;
+		font-family: 'Montserrat', sans-serif;		
+		background-color: #F5F5F5;
+		border: 0;
+		outline: 0;
+		border-bottom: 0.01rem solid gray;
+		color: #6C6762;
+		font-weight: bold;
+	}
+	form option{
+		font-weight: bold;
+		background-color: #D1DCE2;
+	}
+	form input:hover{
+		background-color: #ECECEC;
+	}
+	select:first-child{
+		font-weight: lighter;
+	}
+	select:hover{
+		cursor: pointer;
+		background-color: #ECECEC;
+	}
+	/*CV*/
+	#cv{
+		font-family: 'Montserrat', sans-serif;		
+		font-weight: bold;
+		color: #6C6762;
+	}
+	#inputfile{
+		font-weight: normal;
+		padding-top: 2vh;
+		margin-bottom: 2vh;
+	}
+	form button{
+		background-color: #4253BC;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		border-radius: 5px;
+		border:0;
+		outline: 0;
+		height: 38px;
+		width: 215px;
+		box-shadow: -1px 7px 18px -5px rgba(0,0,0,0.75);
+	}
+	form button:hover{
+		box-shadow: 0px 2px 18px -1px rgba(0,0,0,0.75);
+	}
+/*FOOTER*/
+	#frame{
+		display: flex;
+		justify-content: center;
+	}
+	footer{
+		height: 27vh;
+		display: flex;
+		align-items: center;
+		padding-top:6vh;
+		justify-content: center;
+		background-color: #0071B9;
+	}
+	.line{
+		display: inline-block;
+		width: 100%;
+		border: 0.1rem solid;
+		border-color: #0D78BD;
+	}
+	footer>span{
+		display: flex;
+		margin: 2vh 5vw;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.8rem;
+		color: white;
+
+	}
+	footer>a{
+		display: flex;
+		margin: 1vh 1vh;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.8rem;
+		color: white;
+
+	}
+	footer>a:hover{
+		color: white;
+	}	

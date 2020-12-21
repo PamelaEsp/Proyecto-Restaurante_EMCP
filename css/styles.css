@@ -1,0 +1,218 @@
+/*GENERALES*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html{
+		font-size: 100%;
+		zoom:100%;
+	}
+	main{
+		margin: 0 4vw 0 4vw;
+	}
+/*HEADER*/
+	.logo_Cielito{
+		width: 7em;
+	}	
+	.FB>img,.TW>img,.IG>img{
+		width: 30px;
+		height: 30px;
+	}
+	.FB>img:hover,.TW>img:hover,.IG>img:hover{
+		cursor: pointer;
+	}
+	#contenedor-a>a{
+		font-weight: bold;
+		color: #0095EB;
+		margin: 0 2vw 0 2vw;
+	}
+	#contenedor-a>a:hover{
+		color: #57B9F2;
+	}
+	.navheader{
+		position: relative;
+		right: 0;
+	}
+	#contenedor-a>span{
+		margin-left: 2.5vw;
+		margin-bottom: 1.5vh;
+	}
+/*CARRUSEL*/
+	.carrusel1{
+		height: 238px;
+	}
+	.carrusel2{
+		height: 238px;
+	}
+/*PRINCIPAL*/
+	.seccionprincipal{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	/*Saludo de presentación*/
+		#azul{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #1CCEE5;
+			margin-bottom: 0;
+			height: 42.5vh;
+		}
+		.blanco1{
+			font-family: 'Fjalla One', sans-serif;
+			color: #ffffff;
+		}
+		.blanco2{
+			font-family: 'Anton', sans-serif;
+			color: #ffffff;
+		}
+		.turquesa1{
+			font-family: 'Chau Philomene One', sans-serif;
+			color: #0071B9;
+		}
+		.turquesa2{
+			font-family: 'Pattaya', sans-serif;
+			color: #0071B9;
+		}
+	/*GRID*/
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			"rojo"
+			"taza"
+			"señor"
+			"vaso"
+			"naranja"
+			"amarillo";	
+		}
+		.rojo{
+			display: flex;
+			justify-content: center;
+			grid-area: rojo;
+			position: relative;
+		}
+		.rojo:hover{
+			cursor:pointer;
+		}
+		.rojo>img{
+			width:310px;
+			height:320px;	
+		}
+		.rojo2{
+			display: none;
+			grid-area: rojo2;
+			position: relative;
+		}
+		.rojo2:hover{
+			cursor: pointer;
+		}
+		.taza{
+			display: flex;
+			justify-content: center;
+			grid-area: taza;
+			position: relative;
+		}
+		.taza>img{
+			width: 365px;
+		}
+		.señor{
+			display: flex;
+			justify-content: center;
+			grid-area: señor;
+			position: relative;
+		}
+		.señor>img{
+			width: 365px;
+		}
+		.vaso{
+			display: flex;
+			justify-content: center;
+			grid-area: vaso;
+			position: relative;
+			display: flex;
+			justify-content: center;
+		}
+		.vaso>img{
+			width: 435px;
+		}
+		.naranja{
+			display: flex;
+			justify-content: center;
+			grid-area: naranja;
+			position: relative;
+		}
+		.naranja:hover{
+			cursor: pointer;
+		}
+		.naranja>img{
+			width: 365px;
+		}
+		.amarillo{
+			display: flex;
+			justify-content: center;
+			grid-area: amarillo;
+			position: relative;
+		}
+		.amarillo>img{
+			width: 365px;
+		}
+/*RED SOCIAL*/
+	#siguenos{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 13vh;
+		font-family: 'Montserrat', sans-serif;
+		color: #0071B9;
+		font-size: 0.8rem;
+		
+		background-color: white;
+	}
+/*FOOTER*/
+	#frame{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10vh;
+	}
+	footer{
+		height: 32vh;
+		display: flex;
+		align-items: center;
+		padding-top:7vh;
+		justify-content: center;
+		background-color: #0071B9;
+	}
+	.line{
+		display: inline-block;
+		width: 100%;
+		border: 0.1rem solid;
+		border-color: #0D78BD;
+	}
+	footer>span{
+		display: flex;
+		margin: 3.5vh 5vw 2.5vh 5vw;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.8rem;
+		color: white;
+	}
+	footer>a{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.9rem;
+		color: white;
+
+	}
+	footer>a:hover{
+		color: white;
+	}
+
+
+
+

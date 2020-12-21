@@ -1,0 +1,203 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) {
+	main{
+		margin: 0 6.5vw 0 6.5vw;
+	}
+	/*CARRUSEL*/
+		.carrusel1{
+			height: 270px;
+		}
+		.carrusel2{
+			height: 270px;
+		}
+	/*Saludo de presentación*/
+		.contenedor-frase{
+			display: flex;
+			justify-content: center;
+		}
+		#azul{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #1CCEE5;
+			margin-bottom: 0;
+			height: 42vh;
+			width: 100%;
+		}
+	/*GRID*/
+		.rojo>img{
+			width:310px;
+			height:320px;	
+		}
+		.taza>img{
+			width: 360px;
+		}
+		.señor>img{
+			width: 360px;
+		}
+		.vaso>img{
+			width: 510px;
+		}
+		.naranja>img{
+			width: 360px;
+		}
+		.amarillo>img{
+			width: 360px;
+		}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	main{
+		margin: 0 4vw 0 4vw;
+	}
+	/*CARRUSEL*/
+		.carrusel1{
+			height: 398px;
+		}
+		.carrusel2{
+			height: 398px;
+		}
+	/*GRID*/
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			"rojo señor naranja"
+			"taza vaso amarillo";
+		}
+		.rojo>img,.señor>img,.naranja>img,.taza>img,.amarillo>img{
+			width:30vw;
+			height: 32.5vw;	
+		}
+		.vaso>img{
+			width: 30vw;
+			height: 19vh;
+		}
+}
+@media (min-width: 840px) {
+	main{
+		margin: 0 7vw 0 7vw;
+	}
+	.rojo>img,.señor>img,.naranja>img,.taza>img,.amarillo>img{
+		width:28vw;
+		height: 32.5vw;	
+	}
+	.vaso>img{
+		width: 28vw;
+		height: 20vh;
+	}
+}
+@media (min-width: 970px) {
+	main{
+		margin: 0 1.5vw 0 1.5vw;
+	}
+	.carrusel1{
+		height: 485px;
+	}
+	.carrusel2{
+		height: 485px;
+	}
+	.rojo>img,.señor>img,.naranja>img,.taza>img,.amarillo>img{
+		width:31.8vw;
+		height: 32.5vw;	
+	}
+	.vaso>img{
+		width: 31.8vw;
+		height: 23vh;
+	}
+}
+/*PARA EL HEADER*/
+@media (min-width: 980px) {
+	.logo_Cielito{
+		margin-left: 5vw;
+	}
+	#contenedor-a{
+		display: flex;
+		align-content: center;
+		position: absolute;
+		right: 0;
+	}
+	.FB,.TW,.IG{
+		margin: 0.5vh 1vw 0 1vw; 
+	}
+	#contenedor-a>span{
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}
+	@media (min-width: 1150px) {
+		main{
+			margin: 0 8.6vw 0 8.6vw;
+		}
+		.rojo>img,.señor>img,.naranja>img,.taza>img,.amarillo>img{
+			width:27.2vw;
+			height: 32.5vw;	
+		}
+		.vaso>img{
+			width: 27.2vw;
+			height: 25vh;
+		}
+	}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	main{
+		margin: 0 10vw 0 10vw;
+	}
+	/*CARRUSEL*/
+		.carrusel1{
+			height: 600px;
+		}
+		.carrusel2{
+			height: 600px;
+		}
+	/*GRID*/
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			"rojo2 señor naranja taza"
+			"rojo2 vaso vaso amarillo";	
+		}
+		.rojo{
+			display: none;
+		}
+		.rojo2{
+			display: inline-block;
+		}
+		.rojo2>img{
+			width: 19.6vw;
+			height: 80vh;
+		}
+		.señor>img,.naranja>img,.taza>img{
+			width: 19.6vw;
+			height: 40vh;	
+		}
+		.vaso>img{
+			width: 39.5vw;
+			height: 40vh;
+		}
+		.amarillo>img{
+			width: 19.6vw;
+			height: 40vh;
+}
+@media (min-width: 1260px) {
+	main{
+		margin:0 4.3vw 0 4.5vw;
+	}
+	.rojo2>img{
+		width: 22.48vw;
+		height: 95vh;
+	}
+	.señor>img,.naranja>img,.taza>img{
+		width: 22.45vw;
+		height: 50vh;	
+	}
+	.vaso>img{
+		width: 45.02vw;
+		height: 45vh;
+	}
+	.amarillo>img{
+		width: 22.45vw;
+		height: 45vh;	
+	}
+}

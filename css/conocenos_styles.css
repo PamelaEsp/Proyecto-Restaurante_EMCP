@@ -1,0 +1,132 @@
+/*GENERALES*/
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html{
+		font-size: 100%;
+		zoom:100%;
+	}
+/*HEADER*/
+	.logo_Cielito{
+		height: 70px;
+	}	
+	.FB>img,.TW>img,.IG>img{
+		width: 30px;
+		height: 30px;
+	}
+	.FB>img:hover,.TW>img:hover,.IG>img:hover{
+		cursor: pointer;
+	}
+	#contenedor-a>a{
+		font-weight: bold;
+		color: #0095EB;
+		margin: 0 2vw 0 2vw;
+	}
+	#contenedor-a>a:hover{
+		color: #57B9F2;
+	}
+	.navheader{
+		position: relative;
+		right: 0;
+	}
+	#contenedor-a>span{
+		margin-left: 2.5vw;
+		margin-bottom: 1.5vh;
+	}
+/*Imagen Grupo Herdez*/
+	.imgprincipal{
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+	.imgprincipal>img{
+		width: 470px;
+	}
+/*Promesa de marca*/
+	.promesa{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 12vh;
+		margin-bottom: 7vh;
+	}
+	.promesa1{
+		color: #67CFE3;
+		font-size: 1.7rem;
+		font-weight: lighter;
+		font-family: 'Fjalla One', sans-serif;
+		margin-right: 1.5vw;
+	}
+	.promesa2{
+		color: #0071B9;
+		font-size: 1.7rem;
+		font-weight: lighter;
+		font-family: 'Anton', sans-serif;
+	} 
+/*Banner*/
+	.contenedor-banner{
+		display: flex;
+		justify-content: center;
+	}
+	.VasoCielito{
+		display: none;
+	}
+	.PocilloCielito{
+		display: none;
+	}
+	.ParedCielito{
+		height: 320px;
+	}
+/*LEMA DE CIELITO*/
+	.lema{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin-top: 6vh;
+		margin-bottom: 10vh;
+	}
+	.LemaCielito{
+		width: 480px;
+	}
+/*FOOTER*/
+	#frame{
+		display: flex;
+		justify-content: center;
+	}
+	footer{
+		height: 27vh;
+		display: flex;
+		align-items: center;
+		padding-top:6vh;
+		justify-content: center;
+		background-color: #0071B9;
+	}
+	.line{
+		display: inline-block;
+		width: 100%;
+		border: 0.1rem solid;
+		border-color: #0D78BD;
+	}
+	footer>span{
+		display: flex;
+		margin: 2vh 5vw;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.8rem;
+		color: white;
+	}
+	footer>a{
+		display: flex;
+		margin: 1vh 1vh;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.8rem;
+		color: white;
+	}
+	footer>a:hover{
+		color: white;
+	}

@@ -1,0 +1,125 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*PARA PANTALLAS DE MÓVIL EN HORIZONTAL*/
+@media (min-width: 576px) {
+	#imgcentral>img{
+		width: 510px;
+	}
+	.texto{
+		padding: 0 12vw 0 12vw; 
+		margin-bottom: 8vh;
+	}
+	form{
+		padding:0 11.5vw 0 11.5vw;
+		margin-bottom: 15vh;
+	}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	#imgcentral>img{
+		width: 725px;
+	}
+	.texto{
+		padding: 0 19.5vw 0 19.5vw; 
+		margin-bottom: 8vh;
+	}
+	form{
+		padding:0 19vw 0 19vw;
+		margin-bottom: 15vh;
+	}
+}
+/*PARA EL HEADER*/
+@media (min-width: 980px) {
+	.logo_Cielito{
+		margin-left: 5vw;
+	}
+	#contenedor-a{
+		display: flex;
+		align-content: center;
+		position: absolute;
+		right: 0;
+	}
+	.FB,.TW,.IG{
+		margin: 0.5vh 1vw 0 1vw; 
+	}
+	#contenedor-a>span{
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.frase1{
+		font-size: 3rem;
+		margin-right: 1.4vw;
+	}
+	.frase2{
+		font-size: 3rem;
+	}
+	#imgcentral>img{
+		width: 725px;
+	}
+	#imgizquierda{
+		display: inline-block;
+	}
+	#imgderecha{
+		display: inline-block;
+	}
+	#imgcentral{
+		margin-bottom: 8vh;
+	}
+	#imgizquierda>img{
+		width: 240px;
+	}
+	#imgderecha>img{
+		width: 240px;
+	}
+	#imgcentral>img{
+		width: 470px;
+		height: 232px;
+	}
+	.texto{
+		padding: 0 23.2vw 0 23.2vw; 
+		margin-bottom: 8vh;
+	}
+	form{
+		padding:0 23vw 0 23vw;
+		margin-bottom: 15vh;
+	}
+	form input{
+		padding: 0 0 0 1.3vw;
+	}
+	form textarea{
+		padding: 2vh 0 0 1.3vw;
+	}
+}
+@media (min-width: 1260px){
+	.contenedor-frase{
+		margin: 1vh 0 17vh 0;
+	}
+	#imgizquierda>img{
+		width: 310px;
+	}
+	#imgderecha>img{
+		width: 310px;
+	}
+	#imgcentral>img{
+		width: 615px;
+		height: 300px;
+	}
+	.texto{
+		padding: 0 19.4vw 0 19.4vw; 
+	}
+	form{
+		padding:0 19.5vw 0 19.5vw;
+		margin-bottom: 15vh;
+	}
+	form input{
+		padding: 0 0 0 1.3vw;
+	}
+	form textarea{
+		padding: 2vh 0 0 1.3vw;
+	}
+	form select{
+		padding: 1vh 0 0 1vw;	
+	}		
+}
