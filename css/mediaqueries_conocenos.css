@@ -16,6 +16,10 @@
 	.lema{
 		margin-top: 6.5vh;
 	}
+	.conocenos_contenedor{
+		
+		display: none;
+	}
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
@@ -26,7 +30,7 @@
 		width: 650px;
 	}
 }
-/*PARA EL HEADER*/
+
 @media (min-width: 980px) {
 	.logo_Cielito{
 		margin-left: 5vw;

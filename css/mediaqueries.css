@@ -4,14 +4,14 @@
 	main{
 		margin: 0 6.5vw 0 6.5vw;
 	}
-	/*CARRUSEL*/
+	
 		.carrusel1{
 			height: 270px;
 		}
 		.carrusel2{
 			height: 270px;
 		}
-	/*Saludo de presentación*/
+	
 		.contenedor-frase{
 			display: flex;
 			justify-content: center;
@@ -26,7 +26,7 @@
 			height: 42vh;
 			width: 100%;
 		}
-	/*GRID*/
+	
 		.rojo>img{
 			width:310px;
 			height:320px;	
@@ -52,14 +52,14 @@
 	main{
 		margin: 0 4vw 0 4vw;
 	}
-	/*CARRUSEL*/
+	
 		.carrusel1{
 			height: 398px;
 		}
 		.carrusel2{
 			height: 398px;
 		}
-	/*GRID*/
+	
 		.grid-container{
 			display: grid;
 			grid-template-areas: 
@@ -144,14 +144,14 @@
 	main{
 		margin: 0 10vw 0 10vw;
 	}
-	/*CARRUSEL*/
+	
 		.carrusel1{
 			height: 600px;
 		}
 		.carrusel2{
 			height: 600px;
 		}
-	/*GRID*/
+	
 		.grid-container{
 			display: grid;
 			grid-template-areas: 

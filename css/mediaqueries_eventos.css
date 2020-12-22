@@ -20,7 +20,7 @@
 			margin-bottom: 15.5vh;
 			width: 100%;
 	}
-	/*IMAGENES*/
+	
 	.contenedor-img{
 		display: grid;
 		grid-template-areas: 
@@ -71,9 +71,9 @@
 			margin-bottom: 15vh;
 		}
 }
-/*Intermedio*/
+
 @media (min-width: 840px) {
-	/*IMAGENES*/
+	
 	.contenedor-img{
 		display: grid;
 		grid-template-areas: 
