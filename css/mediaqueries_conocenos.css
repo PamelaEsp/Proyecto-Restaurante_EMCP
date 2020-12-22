@@ -16,10 +16,7 @@
 	.lema{
 		margin-top: 6.5vh;
 	}
-	.conocenos_contenedor{
-		
-		display: none;
-	}
+	
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
